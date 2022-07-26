@@ -23,14 +23,14 @@
 
 // davaleba #3  ------------
 
-// let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
+let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
 
-// for (let items of numbers){
+for (let item of numbers) {
 
-// if (item > 5)
+if (item > 5)
 
-// console.log(items);
-// }
+console.log(item);
+}
 
 
 
