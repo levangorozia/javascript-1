@@ -27,9 +27,11 @@
 
 // for (let items of numbers){
 
-//     if (numbers > 5)
-//     console.log(items);
+// if (item > 5)
+
+// console.log(items);
 // }
+
 
 
 // (let x=0; x < names.length; x++ ) {
@@ -44,16 +46,16 @@
 // [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
 
 
-let numbers = 10;
+// let numbers = 10;
 
- if (numbers > 5) {
-  console.log('hello');
+//  if (numbers > 5) {
+//   console.log('hello');
 
-} else if (numbers > 100) {
-    console.log('hello2');
-} else {
-    console.log('error');
-}
+// } else if (numbers > 100) {
+//     console.log('hello2');
+// } else {
+//     console.log('error');
+// }
 
 
 
@@ -70,3 +72,29 @@ let numbers = 10;
 // }
 
 
+// davaleba #6  
+
+
+// davaleba #7  
+
+
+// davaleba #8  
+
+// let array = [2, 3, 5, 10, 25, 24, 11, 100 , 6, 7, 10];
+
+// for ( let item of array){
+
+//     if (item % 2 ==0)
+
+//     console.log(item);
+// }
+
+
+// let array = [2, 3, 5, 10, 25, 24, 11, 100 , 6, 7, 10];
+
+// for ( let item of array){
+
+//     if (item % 2 ==1)
+
+//     console.log(item);
+// }
