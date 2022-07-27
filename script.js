@@ -23,14 +23,14 @@
 
 // davaleba #3  ------------
 
-let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
+// let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
 
-for (let item of numbers) {
+// for (let item of numbers) {
 
-if (item > 5)
+// if (item > 5)
 
-console.log(item);
-}
+// console.log(item);
+// }
 
 
 
@@ -65,11 +65,18 @@ console.log(item);
 
 // davaleba #5  
 
-// let array = ['watermelon', 'pear', 10, 45, 50, 'apple', 'ananas'] 
+let array = ['watermelon', 'pear', 10, 45, 50, 'apple', 'ananas']; 
 
-// for (let items of array){
-//     console.log(string);
-// }
+
+
+for (let item of array){
+
+    console.log(typeof item);
+
+    if (item == string)
+
+     console.log(item);
+}
 
 
 // davaleba #6  
