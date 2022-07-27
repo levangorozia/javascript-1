@@ -74,15 +74,16 @@
 
 // davaleba #6  ---
 
-// let array = [32, 10, 'hello', null, 'hello2', 50 ]
+let array = [32, 10, 'hello', null, 'hello2', 50 ]
 
+for ( let item of array){
 
-// for ( let item of array){
+    if (typeof item == 'number'){
 
-//     if (item % 5 == 0)
-
-//     console.log(item);
-// }
+    }else if (item % 5 == 0 ){
+         console.log(item);
+    }else ('error')
+}
 
 
 // გამოაქვს null-იც. მიზეზი არ ვიცი
@@ -130,13 +131,30 @@
 
 // davaleba #9 - ???
 
-// let x = "ka" && "en";
+// if statement
 
-// if (x=="ka"){
+// let x = ["ka", "en"];
+
+// if (x[0]="ka"){
 //     console.log('ქართული');
-// } else if (x=="en"){
+// } else if (x[1]="en"){
 //     console.log('inglisuri');
 // } else {
 //     console.log("error");
 // }
+
+// switch case
+
+// switch (x){
+//     case 'ka':
+//         console.log(ლევანი);
+//         break;
+
+//     case 'en':
+//         console.log(levani);
+//         break
+//     default:
+//         console.log('error');
+// }
+
 
