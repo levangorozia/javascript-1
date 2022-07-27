@@ -10,6 +10,8 @@
 //     console.log(user.studentstatus);
     
 
+
+
 // davaleba #2
 
 // let user = ['giorgi','smith', 25, 'active']
@@ -21,7 +23,7 @@
 
 
 
-// davaleba #3  ------------
+// davaleba #3  
 
 // let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
 
@@ -42,30 +44,17 @@
 // 	studentstatus: 'active'
 // };
 
-// if (user.age<18 && studentstatus = 'active'){
+// if (user.age<18 && studentstatus == 'active'){
+//     console.log(hello);
+// } else if (user.name  == 'levani'){
 //     console.log(hellogiorgi);
-// } else if (user.studentstatus ='active' || age < 25){
+// } else if (user.studentstatus ='active' || user.age < 25){
 //     console.log(helloworld);
 // } else {
 //     console.log(error);
 // }
 
 
-
-
-
-
-
-
-
-
-// for (let [key, value]  of Object.entries (user)){
-//     console.log(key, value);
-// }
-
-
-
- 
 
 
 // davaleba #5  
@@ -83,10 +72,36 @@
 
 
 
-// davaleba #6  
+// davaleba #6  ---
+
+// let array = [32, 10, 'hello', null, 'hello2', 50 ]
+
+
+// for ( let item of array){
+
+//     if (item % 5 == 0)
+
+//     console.log(item);
+// }
+
+
+// გამოაქვს null-იც. მიზეზი არ ვიცი
+
 
 
 // davaleba #7  
+
+// let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ]
+
+
+// for (let x= 0; x < array.length; x++) {
+
+//     const element = array[x];
+
+//     if (element==)
+   
+// }
+
 
 
 // davaleba #8  
@@ -101,6 +116,7 @@
 // }
 
 
+
 // let array = [2, 3, 5, 10, 25, 24, 11, 100 , 6, 7, 10];
 
 // for ( let item of array){
@@ -108,5 +124,19 @@
 //     if (item % 2 ==1)
 
 //     console.log(item);
+// }
+
+
+
+// davaleba #9 - ???
+
+// let x = "ka" && "en";
+
+// if (x=="ka"){
+//     console.log('ქართული');
+// } else if (x=="en"){
+//     console.log('inglisuri');
+// } else {
+//     console.log("error");
 // }
 
