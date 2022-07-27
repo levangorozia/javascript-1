@@ -34,39 +34,43 @@
 
 
 
-// (let x=0; x < names.length; x++ ) {
-
-// console.log(numbers.for);
-
-// }
-
-
-
-
-// [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
-
-
-// let numbers = 10;
-
-//  if (numbers > 5) {
-//   console.log('hello');
-
-// } else if (numbers > 100) {
-//     console.log('hello2');
-// } else {
-//     console.log('error');
-// }
-
-
-
-
 // davaleba #4  ------------
+
+// var user = {
+// 	name: 'giorgi',
+// 	age:  20,
+// 	studentstatus: 'active'
+// };
+
+// if (user.age<18 && studentstatus = 'active'){
+//     console.log(hellogiorgi);
+// } else if (user.studentstatus ='active' || age < 25){
+//     console.log(helloworld);
+// } else {
+//     console.log(error);
+// }
+
+
+
+
+
+
+
+
+
+
+// for (let [key, value]  of Object.entries (user)){
+//     console.log(key, value);
+// }
+
+
+
+ 
 
 
 // davaleba #5  
 
 let array = ['watermelon', 'pear', 10, 45, 50, 'apple', 'ananas']; 
-
 
 
 for (let item of array){
@@ -77,6 +81,7 @@ for (let item of array){
 
      console.log(item);
 }
+
 
 
 // davaleba #6  
@@ -105,3 +110,4 @@ for (let item of array){
 
 //     console.log(item);
 // }
+
