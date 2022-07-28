@@ -11,7 +11,6 @@
     
 
 
-
 // davaleba #2
 
 // let user = ['giorgi','smith', 25, 'active']
@@ -44,16 +43,15 @@
 // 	studentstatus: 'active'
 // };
 
-// if (user.age<18 && studentstatus == 'active'){
+// if (user.age <18 && user.studentstatus == 'active'){
 //     console.log(hello);
 // } else if (user.name  == 'levani'){
-//     console.log(hellogiorgi);
-// } else if (user.studentstatus ='active' || user.age < 25){
-//     console.log(helloworld);
+//     console.log(hello giorgi);
+// } else if (user.studentstatus == 'active' || user.age < 25){
+//     console.log(hello world);
 // } else {
 //     console.log(error);
 // }
-
 
 
 
@@ -66,40 +64,38 @@
 //     if (typeof item == 'string') {
 
 //         console.log(item);
-//     }   
-      
+//     }         
 // }
 
 
 
-// davaleba #6  ---
+// davaleba #6  
 
-let array = [32, 10, 'hello', null, 'hello2', 50 ]
+// let array = [32, 10, 'hello', null, 'hello2', 50 ]
 
-for ( let item of array){
-
-    if (typeof item == 'number'){
-
-    }else if (item % 5 == 0 ){
-         console.log(item);
-    }else ('error')
-}
-
-
-// გამოაქვს null-იც. მიზეზი არ ვიცი
+// for ( let item of array){
+    
+//     if (item % 5 == 0 && item != null){
+//          console.log(item);
+//     }else ('error')
+// }
 
 
 
-// davaleba #7  
+
+// davaleba #7   -- dausrulebeli
 
 // let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ]
 
 
-// for (let x= 0; x < array.length; x++) {
+// for (let x= 0; x < array.length; x++){
+    
+// }
 
-//     const element = array[x];
+// {
+//  const element = array[x];
 
-//     if (element==)
+// if (element==)
    
 // }
 
@@ -143,7 +139,7 @@ for ( let item of array){
 //     console.log("error");
 // }
 
-<<<<<<< Updated upstream
+
 // switch case
 
 // switch (x){
@@ -157,7 +153,4 @@ for ( let item of array){
 //     default:
 //         console.log('error');
 // }
-=======
->>>>>>> Stashed changes
-
 
