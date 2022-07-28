@@ -143,6 +143,7 @@ for ( let item of array){
 //     console.log("error");
 // }
 
+<<<<<<< Updated upstream
 // switch case
 
 // switch (x){
@@ -156,5 +157,7 @@ for ( let item of array){
 //     default:
 //         console.log('error');
 // }
+=======
+>>>>>>> Stashed changes
 
 
