@@ -129,7 +129,7 @@ for ( let item of array){
 
 
 
-// davaleba #9 - ???
+// davaleba #9 
 
 // if statement
 
