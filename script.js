@@ -6,36 +6,27 @@
 //     age: 25,
 //     studentstatus: 'active'
 //     };
-
 //     console.log(user.studentstatus);
     
 
-
 // davaleba #2
-
 // let user = ['giorgi','smith', 25, 'active']
-
 // for (let items of user) {
-
 //     console.log(items);
 // }
-
 
 
 // davaleba #3  
 
 // let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
-
 // for (let item of numbers) {
-
 // if (item > 5)
-
 // console.log(item);
 // }
 
 
 
-// davaleba #4  ------------
+// davaleba #4 
 
 // var user = {
 // 	name: 'giorgi',
@@ -44,13 +35,13 @@
 // };
 
 // if (user.age <18 && user.studentstatus == 'active'){
-//     console.log(hello);
+//     console.log('hello');
 // } else if (user.name  == 'levani'){
-//     console.log(hello giorgi);
+//     console.log('hello giorgi');
 // } else if (user.studentstatus == 'active' || user.age < 25){
-//     console.log(hello world);
+//     console.log('hello world');
 // } else {
-//     console.log(error);
+//     console.log('error');
 // }
 
 
@@ -74,31 +65,51 @@
 // let array = [32, 10, 'hello', null, 'hello2', 50 ]
 
 // for ( let item of array){
+//     if (item % 5 == 0 && typeof item == 'number' ){
+//         console.log(item);
+//     }
+// }
+
+
+
+
+// davaleba #7  
+
+// let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ];
+
+// for (let i= 0; i < array.length; i++){
+
+
+//     const element = array[i];
+
+
+//     for (let x = 0; x < element.length; x++){
+
+//         const positive = element [x];
+
+//         if (positive > 0){
+//              console.log(positive);
+//         }
+//     }
     
-//     if (item % 5 == 0 && item != null){
-//          console.log(item);
-//     }else ('error')
 // }
 
+//  იგივე ამოცანა ახალი for ციკლის პირობებში:
 
+// let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ];
 
+//     for (let item of array){
 
-// davaleba #7   -- dausrulebeli
+//         for (let positiveelement of item) {
 
-// let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ]
+//             if (positiveelement > 0){
+//                 console.log(positiveelement);
+//             }
 
+//         }
+//     }
 
-// for (let x= 0; x < array.length; x++){
     
-// }
-
-// {
-//  const element = array[x];
-
-// if (element==)
-   
-// }
-
 
 
 // davaleba #8  
